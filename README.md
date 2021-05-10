@@ -24,6 +24,7 @@ Refactoring the VBA macro, we repurposed the code to be able to analyze large st
 
 ### Stock Market Performance between 2017 and 2018
 The stock market performance in 2017 was more noticeable compared to 2018, with only one unsuccessful return outcome in 2017 compared to only two successful return outcomes among 12 green energy stock companies (Figure 1). The largest returns were for DQ and SEDG companies in 2017 but both suffered lossess in 2018, while ENPH and RUN companies kept their returns to a high degree relative to other stocks and RUN even multiplied its return nearly 15 times.
+
 **Figure 1: All Stocks Performance in 2017-2018**
 -------
 ![All stocks 2017-2018 comparison](https://github.com/BHashemi2021/All-Stock-Analysis/blob/main/Resources/All%20stocks%202017-2018%20comparison.png)
@@ -37,6 +38,11 @@ The refactored scripts resulted in a much smaller amount of time compared to the
 ![execution-time-comparisons](https://github.com/BHashemi2021/All-Stock-Analysis/blob/main/Resources/execution-time-comparisons.png)
 ------
  This noticible difference of up to onetenth of the time between the refactored versus original scripts shows how refactoring and use of r loops and nested loops will improve the efficiency of macro codes (Fig 3).
+ 
+ **Figure 3: Use of R loops in the refactored script
+-------------------
+![For loops](https://github.com/BHashemi2021/All-Stock-Analysis/blob/main/Resources/For%20loops.png)
+-------------------
 
 ## Summary
 
