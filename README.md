@@ -2,7 +2,7 @@
 
 ## Oveview 
 
-   ### Background
+### Background
 The first stock market in the world was the London stock exchange. It was started in a coffeehouse, where traders used 
 to meet to exchange shares, in 1773. While today it is possible to purchase almost everything online, there is usually a 
 designated market for every commodity. A stock market is a similar market for trading various kinds of assets or company 
@@ -15,18 +15,18 @@ in this huge market.
 
 Previously, we prepared a Microsoft Excel Visual Basic macro fro Steve, a finace degree graduate, who would like to help his parentd decide where to invest,especially in the green energy production. They had decided to invest in [Daqo New Energy Corp](http://www.dqsolar.com/company.php) (NYSE: DQ) that manufacturers high-purity polysilicon for the global solar pannel industry (2). In the previous macros we created, Steve was able to to analyze a small number of green energy stocks to compare their performance during 2017 and 2018 but the calculations were slow and were taking noticble amount of time, and even were showing glass hours, that are indicative of a timetaking and labour intensive process by computers. 
 
-   ### Purpose
+### Purpose
  Steve has indicted that he wants to use to VBA macro code we prpare for him to anlyze data from numerous number of stockmarket corporations. Therefore the VB macro needs to be able to analyze large amounts of data in a short amount of time. In doing so, we need to refactor the original script so that it can go through numerous sheets of stoch data and return results faster. To test the VBA  macro we have prepared, we will analyse stock market dataset from trades of different stock market corporations during 2017 and 2018 and compare their perforance. 
 
 
 ## Results
 Refactoring the VBA macro, we repurposed the code to be able to analyze large stock market datasets. To test the VBA macro, we performed the nalysis on the green stock dataset that contains data for 12 green energy stocks during the years 2017 and 2018.  
 
-   ### Stock Market Performance between 2017 and 2018
+### Stock Market Performance between 2017 and 2018
 The stock market performance in 2017 is more noticeable compared to 2018, especially 
 
  
-   ### Execution times of the original script and the refactored script. 
+### Execution times of the original script and the refactored script. 
 
 o	The analysis is well described with screenshots and code 
 
