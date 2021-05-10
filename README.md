@@ -20,7 +20,7 @@ Previously, we prepared a Microsoft Excel Visual Basic macro fro Steve, a finace
 
 
 ## Results
-Refactoring the VBA macro, we repurposed the code to be able to analyze large stock market datasets. To test the VBA macro, we performed the nalysis on the green stock dataset that contains data for 12 green energy stocks during the years 2017 and 2018.  
+Refactoring the VBA macro, we repurposed the code to be able to analyze large stock market datasets. To test the VBA macro, we performed the nalysis on the green stock dataset that contains data for 12 green energy stocks during the years 2017 and 2018 (.  
 
 ### Stock Market Performance between 2017 and 2018
 The stock market performance in 2017 is more noticeable compared to 2018, especially 
