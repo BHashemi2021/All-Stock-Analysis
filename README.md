@@ -20,28 +20,23 @@ Previously, we prepared a Microsoft Excel Visual Basic macro fro Steve, a finace
 
 
 ## Results
-Refactoring the VBA macro, we repurposed the code to be able to analyze large stock market datasets. To test the VBA macro, we performed the nalysis on the green stock dataset that contains data for 12 green energy stocks during the years 2017 and 2018 (Figure 1).  
-
-
-
+Refactoring the VBA macro, we repurposed the code to be able to analyze large stock market datasets. To test the VBA macro, we performed the nalysis on the green stock dataset that contains data for 12 green energy stocks during the years 2017 and 2018 (Figure 1). The execution times between the original and refactored scrits were also different to a great extent (Figure 2). 
 
 ### Stock Market Performance between 2017 and 2018
-The stock market performance in 2017 was more noticeable compared to 2018, especially 
-
+The stock market performance in 2017 was more noticeable compared to 2018, with only one unsuccessful return outcome in 2017 compared to only two successful return outcomes among 12 green energy stock companies (Figure 1). The largest returns were for DQ and SEDG companies in 2017 but both suffered lossess in 2018, while ENPH and RUN companies kept their returns to a high degree relative to other stocks and RUN even multiplied its return nearly 15 times.
 **Figure 1: All Stocks Performance in 2017-2018**
 -------
 ![All stocks 2017-2018 comparison](https://github.com/BHashemi2021/All-Stock-Analysis/blob/main/Resources/All%20stocks%202017-2018%20comparison.png)
 ------
  
 ### Execution times of the original script and the refactored script. 
-
-o	The analysis is well described with screenshots and code 
+The refactored scripts resulted in a much smaller amount of time compared to the original scripts for both 2017 (0.4 sec vs. 4.1 sec) and 2018 (0.41 sec vs 4.18 sec) (Figure 2). 
 
 **Figure 2: VBA macro execution times betwen original and refactored scripts**
 -------
 ![execution-time-comparisons](https://github.com/BHashemi2021/All-Stock-Analysis/blob/main/Resources/execution-time-comparisons.png)
 ------
- 
+ This noticible difference of up to onetenth of the time between the refactored versus original scripts shows how refactoring and use of r loops and nested loops will improve the efficiency of macro codes (Fig 3).
 
 ## Summary
 
